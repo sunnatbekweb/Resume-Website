@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header {
+    font-family: 'Bruno Ace SC', cursive;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.nav_links_hover:hover{
+    color: #a2a2a2;
+}
+
+.nav_btn_hover:hover {
+    background: #a2a2a2;
+    color: azure;
+    border-radius: 5px;
+}
+
+#intro {
+    font-family: 'Roboto' sans-serif !important;
+}
