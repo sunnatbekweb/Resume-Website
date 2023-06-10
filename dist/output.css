@@ -622,6 +622,10 @@ video {
   cursor: pointer;
 }
 
+.flex-col{
+  flex-direction: column;
+}
+
 .items-center{
   align-items: center;
 }
@@ -672,6 +676,10 @@ video {
 
 .pt-24{
   padding-top: 6rem;
+}
+
+.text-center{
+  text-align: center;
 }
 
 .text-2xl{
@@ -804,5 +812,17 @@ header {
 @media (min-width: 1280px){
   .xl\:flex{
     display: flex;
+  }
+
+  .xl\:items-start{
+    align-items: flex-start;
+  }
+
+  .xl\:justify-between{
+    justify-content: space-between;
+  }
+
+  .xl\:text-left{
+    text-align: left;
   }
 }
