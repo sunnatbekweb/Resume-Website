@@ -566,6 +566,19 @@ video {
   top: 0px;
 }
 
+.z-10{
+  z-index: 10;
+}
+
+.mx-auto{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mb-4{
+  margin-bottom: 1rem;
+}
+
 .mb-\[32px\]{
   margin-bottom: 32px;
 }
@@ -602,20 +615,12 @@ video {
   width: 600px;
 }
 
-.w-\[715px\]{
-  width: 715px;
+.w-\[650px\]{
+  width: 650px;
 }
 
 .w-full{
   width: 100%;
-}
-
-.w-\[700px\]{
-  width: 700px;
-}
-
-.w-\[650px\]{
-  width: 650px;
 }
 
 .cursor-pointer{
@@ -659,6 +664,10 @@ video {
   background-color: rgb(229 229 229 / var(--tw-bg-opacity));
 }
 
+.bg-transparent{
+  background-color: transparent;
+}
+
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -696,8 +705,31 @@ video {
   font-size: 18px;
 }
 
+.text-\[22px\]{
+  font-size: 22px;
+}
+
 .text-\[32px\]{
   font-size: 32px;
+}
+
+.text-\[54px\]{
+  font-size: 54px;
+}
+
+.text-6xl{
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
+.text-5xl{
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .font-bold{
@@ -708,16 +740,48 @@ video {
   font-weight: 400;
 }
 
+.uppercase{
+  text-transform: uppercase;
+}
+
+.capitalize{
+  text-transform: capitalize;
+}
+
 .leading-\[18px\]{
   line-height: 18px;
+}
+
+.leading-\[22px\]{
+  line-height: 22px;
+}
+
+.leading-\[59px\]{
+  line-height: 59px;
 }
 
 .leading-\[82px\]{
   line-height: 82px;
 }
 
+.leading-8{
+  line-height: 2rem;
+}
+
+.leading-10{
+  line-height: 2.5rem;
+}
+
+.tracking-\[1px\]{
+  letter-spacing: 1px;
+}
+
 .tracking-\[2px\]{
   letter-spacing: 2px;
+}
+
+.tracking-\[4px\]{
+  letter-spacing: 4px;
 }
 
 .text-\[\#000000\]{
@@ -809,9 +873,42 @@ header {
   color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 
+@media (min-width: 768px){
+  .md\:w-\[650px\]{
+    width: 650px;
+  }
+
+  .md\:w-\[600px\]{
+    width: 600px;
+  }
+
+  .md\:text-7xl{
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+
+  .md\:text-\[54px\]{
+    font-size: 54px;
+  }
+
+  .md\:leading-\[82px\]{
+    line-height: 82px;
+  }
+}
+
+@media (min-width: 1024px){
+  .lg\:w-full{
+    width: 100%;
+  }
+}
+
 @media (min-width: 1280px){
   .xl\:flex{
     display: flex;
+  }
+
+  .xl\:hidden{
+    display: none;
   }
 
   .xl\:items-start{

@@ -19,10 +19,14 @@
 </head>
 
 <body class="bg-[#E5E5E5]">
-    <header class="w-full h-24 fixed top-0 flex items-center">
+    <header class="w-full h-24 fixed top-0 flex items-center bg-transparent z-10">
         <div class="container">
             <nav class="nav w-full flex justify-between items-center">
-                <a href="#" class="flex items-center text-2xl hover:text-gray-400 text-black gap-2 hover:scale-110 transition-all"><img src="/src/assets/images/Sunnatbek_LOGO.jpg" class="w-16 h-16 transition-all hover:-rotate-6 hover:scale-105" alt="logo">Sunnatbek Qadamov</a>
+                <a href="#"
+                    class="flex items-center text-2xl hover:text-gray-400 text-black gap-2 hover:scale-110 transition-all"><img
+                        src="/src/assets/images/Sunnatbek_LOGO.jpg"
+                        class="w-16 h-16 transition-all hover:-rotate-6 hover:scale-105" alt="logo">Sunnatbek
+                    Qadamov</a>
 
                 <ul class="hidden xl:flex justify-center gap-16">
                     <li><a href="#" class="nav_links_hover transition-all">Home</a></li>
@@ -32,9 +36,11 @@
                     <li><a href="#" class="nav_links_hover transition-all">Services</a></li>
                 </ul>
 
-                <button class="hidden xl:flex px-12 py-4 bg-white text-[#000000] nav_btn_hover transition-all">Contact</button>
+                <button
+                    class="hidden xl:flex px-12 py-4 bg-white text-[#000000] nav_btn_hover transition-all">Contact</button>
 
-                <i class="bi bi-list text-black text-[32px] cursor-pointer transition-all hover:text-[#a2a2a2]"></i>
+                <i
+                    class="bi bi-list text-black text-[32px] xl:hidden cursor-pointer transition-all hover:text-[#a2a2a2]"></i>
             </nav>
         </div>
     </header>
@@ -43,22 +49,39 @@
         <section id="intro" class="bg-[#E5E5E5] h-[640px] flex items-center">
             <div class="container">
                 <div class="flex justify-center xl:justify-between items-center ">
-                    <div class="w-[650px] flex flex-col items-center xl:items-start">
-                        <h1 class="font-bold text-7xl leading-[82px] tracking-[2px] text-center xl:text-left">I create <span class="text-[#FF8A56]">frotend</span> of websites</h1>
-                        <p class="mt-[27px] mb-[32px] w-[600px] text-center xl:text-left">
+                    <div class="w-full md:w-[650px] flex flex-col items-center xl:items-start">
+                        <h1
+                            class="font-bold text-5xl md:text-7xl md:leading-[82px] tracking-[2px] text-center xl:text-left capitalize">
+                            I create <span class="text-[#FF8A56]">frotend</span> of websites
+                        </h1>
+                        <p class="mt-[27px] mb-[32px] w-full md:w-[600px] text-center xl:text-left">
                             Hi! I'm Sunnatbek a frontend developer in Tashkent. I create
                             user friendly websites for fast-growing startups.
                         </p>
                         <div class="flex items-center gap-10">
                             <button class="px-12 py-4 transition-[0.3s] bg-white nav_btn_hover">Know more</button>
                             <div class="flex gap-[14px] hover:text-[#FF8A56] transition-[0.5s]">
-                                <a href="" class="font-normal text-[18px] leading-[18px]">Download CV </a> 
+                                <a href="" class="font-normal text-[18px] leading-[18px]">Download CV </a>
                                 <i class="bi bi-arrow-right-short font-normal text-[18px] leading-[18px]"></i>
                             </div>
                         </div>
                     </div>
-                    <img src="./assets/images/20230610_171851_0000-removebg-preview.png" class="hidden xl:flex" alt="image 1">
+                    <img src="./assets/images/20230610_171851_0000-removebg-preview.png" class="hidden xl:flex"
+                        alt="image 1">
                 </div>
+            </div>
+        </section>
+
+        <section id="secvices" class="">
+            <div class="container mx-auto">
+                <div class="">
+                    <h2
+                        class="font-bold text-[22px] leading-[22px] text-center tracking-[4px] uppercase text-[#FF8A56] mb-4">
+                        Projects</h2>
+                    <h1 class="text-center font-bold text-4xl md:text-[54px] leading-[59px] tracking-[1px]">You can see the websites
+                        I have created</h1>
+                </div>
+
             </div>
         </section>
     </main>
